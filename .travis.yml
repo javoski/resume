@@ -10,3 +10,4 @@ deploy:
   on:
     branch: master
   local-dir: dist
+  verbose: true
