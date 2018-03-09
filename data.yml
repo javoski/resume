@@ -1,0 +1,73 @@
+title: 个人简历 - 许炯勃
+main:
+  name: 许炯勃
+  bio: Web Developer
+info:
+  title: 基本信息
+  list:
+    - label: 性别
+      content: 男
+    - label: 籍贯
+      content: 广东
+    - label: 生日
+      content: 1993.01
+contacts:
+  title: 联系方式
+  list:
+    - label: 邮箱
+      content: xujiongbo@gmail.com
+    - label: 手机
+      content: 18826485031
+    - label: 微信
+      content: jobolele
+intro:
+  title: 个人简介
+  desc: 本人热爱 Web 开发，有三年 Web 前端开发经验，拥有良好的编码习惯及较强的网页重构能力，也有一定的后端开发经验，能独立开发一个完整的Web应用
+skills:
+  title: 技能掌握
+  list:
+    - 熟练掌握HTML，CSS，JavaScript等前端基础知识
+    - 熟悉ES6语法，有LESS、Jade等实践经验
+    - 熟悉Vue，了解React等其他框架
+    - 熟练使用Gulp，Webpack等构建打包工具
+    - 擅长移动端开发，熟悉各种适配方案及性能优化
+    - 了解Node.js/PHP和MySQL/MongoDB
+education:
+  title: 教育经历
+  list:
+    - school: 华南农业大学
+      major: 软件工程
+      period: 2011 - 2015
+experience:
+  title: 工作经历
+  list:
+    - company: 优矩信息科技
+      period: 2016.11 - 2017.11
+      desc: 负责聚页工具的前端
+    - company: 深圳中北明夷科技(兔展)
+      period: 2015.11 - 2016.10
+      desc: 负责企业定制H5项目及企业服务系统的前端与部分后台开
+    - company: 广州微宝信息科技(雷科技)
+      period: 2015.07 - 2015.11
+      desc: 负责雷科技和南瓜说网站的总体改版重构及部分Node.js中间层的编写
+projects:
+  title: 项目经验
+  list:
+    - title: 基于微信公众号的场景互动系统
+      period: 2016.08 - 2016.09
+      desc: 用于在宴会中宾客利用微信公众号进行现场互动的集成项目，包括微信留言上墙，摇一摇抽奖，二维码集赞等模块。我在里面负责前端UI风格的制定及Vue公共组件的编写
+    - title: 企业酒瓶定制系统
+      period: 2016.07 - 2016.09
+      desc: 用户在移动端可以选择模板编辑专属于自己的酒瓶，可编辑项包括图片和文字。 前端由我个人完成，其中使用了vue全家桶（vuex, vue-router, vue-resource）
+    - title: 南瓜说 & 雷科技网站
+      period: 2015.07 - 2015.11
+      desc: 雷科技(<a href="http://leikeji.com" target="_blank">http://leikeji.com</a>)和南瓜说(已下线)两个网站的总体界面改版，并添加Node.js作为中间控制层。 前端由我个人完成，主要用了jQuery，Backbone，使用Jade作为模板引擎；在此期间完成了一个ueditor插件，可以模板化编辑购物商品信息
+links:
+  title: 相关链接
+  list:
+    - label: Github
+      link: https://github.com/javoski
+    - label: 博客
+      link: https://javoski.github.io/blog/
+    - label: 个人网站
+      link: https://xujiongbo.com

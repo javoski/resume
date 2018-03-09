@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+</head>
+<body>
+  <div class="wrapper row">
+    <main class="col-5">
+      <section class="main-title">
+        <h1 class="author">{{ main.name }}</h1>
+        <h2 class="bio">{{{ main.bio }}}</h2>
+      </section>
+      <section class="intro">
+        <h3 class="sec-title">{{ intro.title }}</h3>
+        <p>{{{ intro.desc }}}</p>
+      </section>
+      <section class="skills">
+        <h3 class="sec-title">{{ skills.title }}</h3>
+        <ul>
+          {{#each skills.list}}
+          <li>{{ this }}</li>
+          {{/each}}
+        </ul>
+      </section>
+      <section class="projects">
+        <h3 class="sec-title">{{ projects.title }}</h3>
+        <ul class="time-line">
+          {{#each projects.list}}
+          <li>
+            <h4 class="sec-sub-title">{{ title }}</h4>
+            <p class="time">{{ period }}</p>
+            <p>{{{ desc }}}</p>
+          </li>
+          {{/each}}
+        </ul>
+      </section>
+    </main>
+    <aside class="col-3">
+      <section class="contact">
+        <h3 class="sec-title">{{ contacts.title }}</h3>
+        <ul>
+          {{#each contacts.list}}
+          <li><label>{{ label }}:</label> {{ content }}</li>
+          {{/each}}
+        </ul>
+      </section>
+      <section class="base-info">
+        <h3 class="sec-title">{{ info.title }}</h3>
+        <ul>
+          {{#each info.list}}
+          <li><label>{{ label }}:</label> {{ content }}</li>
+          {{/each}}
+        </ul>
+      </section>
+      <section class="education">
+        <h3 class="sec-title">{{ education.title }}</h3>
+        <ul class="time-line">
+          {{#each education.list}}
+          <li>
+            <h4 class="sec-sub-title">{{ major }}</h4>
+            <p class="time">{{ period }}</p>
+            <p>{{ school }}</p>
+          </li>
+          {{/each}}
+        </ul>
+      </section>
+      <section class="experience">
+        <h3 class="sec-title">{{ experience.title }}</h3>
+        <ul class="time-line">
+          {{#each experience.list}}
+          <li>
+            <h4 class="sec-sub-title">{{ company }}</h4>
+            <p class="time">{{ period }}</p>
+            <p>{{{ desc }}}</p>
+          </li>
+          {{/each}}
+        </ul>
+      </section>
+      <section class="links">
+        <h3 class="sec-title">{{ links.title }}</h3>
+        <ul>
+          {{#each links.list}}
+          <li><label>{{ label }}:</label><br><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+          {{/each}}
+        </ul>
+      </section>
+    </aside>
+  </div>
+</body>
+</html>
