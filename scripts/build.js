@@ -3,23 +3,6 @@ const path = require('path')
 const yaml = require('js-yaml')
 const Handlebars = require('handlebars')
 
-// Promisify error-first async function
-// const promisify = fn => function () {
-//   const args = [].slice.call(arguments)
-//   return new Promise ((resolve, reject) => {
-//     args.push(function (err, result) {
-//       if (err) reject(err)
-//       else resolve(result)
-//     })
-//     fn.apply(this, args)
-//   })
-// }
-
-// Promisify fs.readFile & fs.writeFile
-// const readFile = promisify(fs.readFile)
-// const writeFile = promisify(fs.writeFile)
-// const mkdir = promisify(fs.mkdir)
-
 const dataFile = './data.yml'
 const tplFile = './template.html'
 const assetsPath = 'assets'

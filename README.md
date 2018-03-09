@@ -7,8 +7,8 @@
 	cd resume
 	yarn # or npm install
 	```
-- ##### Modify data.yml
-- ##### Build
+- ##### Modify data.yml to your information
+- ##### Run build
 	```bash
 	yarn run build # or npm run build
 	```
