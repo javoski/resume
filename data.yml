@@ -58,10 +58,10 @@ projects:
       desc: 用于在宴会中宾客利用微信公众号进行现场互动的集成项目，包括微信留言上墙，摇一摇抽奖，二维码集赞等模块。我在里面负责前端UI风格的制定及Vue公共组件的编写
     - title: 企业酒瓶定制系统
       period: 2016.07 - 2016.09
-      desc: 用户在移动端可以选择模板编辑专属于自己的酒瓶，可编辑项包括图片和文字。 前端由我个人完成，其中使用了vue全家桶（vuex, vue-router, vue-resource）
+      desc: 用户在移动端可以选择模板编辑专属于自己的酒瓶，可编辑项包括图片和文字。 前端由我个人负责，其中使用了vue全家桶
     - title: 南瓜说 & 雷科技网站
       period: 2015.07 - 2015.11
-      desc: 雷科技(<a href="http://leikeji.com" target="_blank">http://leikeji.com</a>)和南瓜说(已下线)两个网站的总体界面改版，并添加Node.js作为中间控制层。 前端由我个人完成，主要用了jQuery，Backbone，使用Jade作为模板引擎；在此期间完成了一个ueditor插件，可以模板化编辑购物商品信息
+      desc: 雷科技(<a href="http://leikeji.com" target="_blank">http://leikeji.com</a>)和南瓜说(已下线)两个网站的总体界面改版，并添加Node.js作为中间控制层。 前端由我个人负责，主要用了jQuery，Backbone，使用Jade作为模板引擎；在此期间完成了一个ueditor插件，可以模板化编辑购物商品信息
 links:
   title: 相关链接
   list:
