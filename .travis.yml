@@ -1,0 +1,8 @@
+script: npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 6806ebcbe229c68e39e008dcc7a819ac9a5ef651
+  on:
+    branch: master
+  local-dir: ./dist
