@@ -9,4 +9,4 @@ deploy:
   github-token: $GITHUB_TOKEN
   on:
     branch: master
-  local-dir: ./dist
+  local-dir: dist
