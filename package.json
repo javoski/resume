@@ -22,6 +22,7 @@
   "devDependencies": {
     "fs-extra": "^5.0.0",
     "handlebars": "^4.0.11",
-    "js-yaml": "^3.11.0"
+    "js-yaml": "^3.11.0",
+    "ora": "^2.0.0"
   }
 }
