@@ -1,7 +1,7 @@
 {
   "name": "resume",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.3",
+  "description": "A Simple HTMl Resume Generator",
   "main": "index.js",
   "scripts": {
     "build": "node scripts/build.js"
